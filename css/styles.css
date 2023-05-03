@@ -568,19 +568,26 @@ img{
     font-size: 16px;
     text-align: center;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
 .form-label {
     display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+}
+.form-label-modal{
+    display: block;
     margin-bottom: 16px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
 }
 .desc{
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.01em;
 }
 .box-form{
@@ -617,7 +624,7 @@ img{
 }
 .form-area::placeholder{
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
@@ -658,7 +665,7 @@ img{
 }
 .form-sentens{
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
 }
 .checkbox-label{
@@ -693,8 +700,9 @@ img{
     fill: var(--primary-text-color);
 }
 .form-link{
+    margin-left: 2px;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0,04em;
     color: var(--accent-color);
 }
@@ -732,7 +740,7 @@ img{
     padding: 8px 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 24;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
 input[type="email"]::placeholder{
